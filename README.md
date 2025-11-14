@@ -37,7 +37,7 @@ proyecto-ciencia-de-datos/
 │── requirements.txt       # Librerías necesarias
 │── .gitignore             # Archivos ignorados por Git
 
-🔍 Proceso del Proyecto
+Proceso del Proyecto
 1. Limpieza de Datos
 
 Eliminación de valores faltantes
@@ -110,7 +110,7 @@ Precisión, Recall y F1-score
 
 Exactitud (Accuracy)
 
-📊 Resultados Generales
+Resultados Generales
 Modelo	Exactitud
 Regresión Logística	0.78
 Árbol de Decisión	0.75
