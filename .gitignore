@@ -1,0 +1,24 @@
+# Carpetas y archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Carpetas de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de entorno
+.env
+.venv/
+venv/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Datos grandes (si decides no subirlos)
+*.csv
+*.xlsx
+
+# Entornos virtuales
+env/
