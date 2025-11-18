@@ -1,11 +1,12 @@
-Descripción
+Análisis de Rendimiento Académico — Proyecto de Ciencia de Datos
 
 Este proyecto realiza un análisis completo del rendimiento académico de estudiantes utilizando herramientas de Ciencia de Datos y Machine Learning.
-Incluye limpieza de datos, análisis exploratorio, ingeniería de variables, escalamiento, codificación y entrenamiento de modelos predictivos.
+Incluye limpieza de datos, análisis exploratorio, ingeniería de características, preparación del dataset y entrenamiento de múltiples modelos predictivos.
 
 🎯 Objetivo del Proyecto
 
-Identificar los factores que influyen en que un estudiante apruebe o no apruebe, y construir modelos que permitan predecir este resultado con un nivel adecuado de exactitud.
+Identificar qué factores influyen en que un estudiante apruebe o no apruebe,
+y construir modelos capaces de predecir este resultado con un nivel adecuado de exactitud.
 
 🧠 Tecnologías Utilizadas
 
@@ -24,88 +25,91 @@ Seaborn
 Jupyter Notebook
 
 📁 Estructura del Proyecto
-proyecto-rendimiento-academico/
-│── data/                  # Dataset utilizado (si aplica)
-│── notebooks/             # Jupyter Notebook con el análisis y los modelos
-│── src/                   # Scripts de código Python
-│── images/                # Gráficos generados
+rendimiento-academico-analisis/
+│── data/                  # Dataset utilizado
+│── notebooks/             # Jupyter Notebook con el análisis y modelos
+│── images/                # Gráficos generados durante el análisis
 │── README.md              # Documentación del proyecto
-│── requirements.txt       # Librerías necesarias
+│── requirements.txt       # Dependencias necesarias
 │── .gitignore             # Archivos ignorados por Git
 
-📊 Proceso Realizado
+📊 Proceso del Análisis
 1️⃣ Limpieza de Datos
 
-Manejo de valores faltantes
+Manejo de valores nulos
 
-Verificación de tipos de datos
+Revisión de tipos de datos
 
 Corrección de inconsistencias
 
+Normalización de nombres y categorías
+
 2️⃣ Análisis Exploratorio (EDA)
 
-Distribución de las variables
+Distribución de variables
 
-Visualización de relaciones
+Relación entre factores académicos
 
-Identificación de tendencias
+Visualización de correlaciones
+
+Identificación de patrones y tendencias
 
 3️⃣ Ingeniería de Características
 
-Creación de la variable binaria:
+Creación de una variable objetivo binaria:
 
 1 = Aprobado
 
 0 = No aprobado
 
-Transformación de variables categóricas con LabelEncoder
+Codificación de variables categóricas (LabelEncoder)
 
-Escalamiento con StandardScaler
+Escalamiento de variables numéricas (StandardScaler)
 
-4️⃣ Divisiones de Datos
+4️⃣ División de Datos
 
-70% entrenamiento
+70% Entrenamiento
 
-30% prueba
+30% Prueba
 
-🤖 Modelos Entrenados
+🤖 Modelos Entrenados y Desempeño
 🔹 Regresión Logística
 
 Exactitud: 0.78
 
-Buén desempeño prediciendo Aprobados.
+Buen desempeño prediciendo estudiantes aprobados
 
-Desempeño limitado en No aprobados.
+Menor precisión en casos de no aprobación
 
 🔹 Árbol de Decisión
 
 Exactitud: 0.75
 
-Alta precisión en la predicción de Aprobados.
+Alta precisión en aprobados
 
-Baja capacidad de identificar No aprobados.
+Baja capacidad para no aprobados
 
-(Puedes agregar Random Forest si lo incluyes más adelante.)
+(Puedes agregar Random Forest si lo integras más adelante)
 
-📈 Resultados Generales
+📈 Resumen de Resultados
 Modelo	Exactitud
 Regresión Logística	0.78
 Árbol de Decisión	0.75
-🚀 Cómo Ejecutar Este Proyecto
-1. Clonar el repositorio:
-git clone https://github.com/tu-usuario/proyecto-rendimiento-academico.git
+🚀 Cómo Ejecutar el Proyecto
+1️⃣ Clonar el repositorio
+git clone https://github.com/rhaynel19/rendimiento-academico-analisis.git
 
-2. Instalar dependencias:
+2️⃣ Instalar las dependencias
 pip install -r requirements.txt
 
-3. Ejecutar el notebook:
+3️⃣ Ejecutar el análisis
 jupyter notebook
 
 👨‍💻 Autor
 
-Fraimel Trinidad
-Lic en administracion | Analista de Datos | Entusiasta de la Ciencia de Datos
+Fraimel (Rhayner) Trinidad
+Lic. en Administración | Analista de Datos | Estudiante de Ciencia de Datos e Inteligencia Artificial
 
-🤝 Contribuciones
+📧 Abierto a colaboraciones, mejoras o sugerencias.
 
 Cualquier sugerencia o mejora es bienvenida.
